@@ -5,8 +5,8 @@ edition = "2024"
 rust-version = "1.85"
 license = "MIT OR Apache-2.0"
 description = "Small, deterministic multilingual text-analysis pipeline for search and document processing"
-repository = "https://github.com/dataroadinc/language-text-analysis"
-homepage = "https://github.com/dataroadinc/language-text-analysis"
+repository = "https://github.com/legra-ai/language-text-analysis"
+homepage = "https://github.com/legra-ai/language-text-analysis"
 keywords = ["text", "search", "tokenization", "stemming", "unicode"]
 categories = ["text-processing", "algorithms"]
 readme = "README.md"
@@ -23,4 +23,3 @@ missing_docs = "deny"
 [lints.clippy]
 all = "warn"
 pedantic = "warn"
-
