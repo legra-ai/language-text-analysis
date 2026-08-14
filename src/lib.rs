@@ -7,11 +7,7 @@ mod stopwords;
 mod term;
 mod tokenize;
 
-pub use analyzer::{
-    Analyzer,
-    AnalyzerBuilder,
-    StopWordPolicy,
-};
+pub use analyzer::{Analyzer, AnalyzerBuilder, StopWordPolicy};
 pub use language::Language;
 pub use term::Term;
 

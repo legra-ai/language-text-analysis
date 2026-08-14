@@ -1,11 +1,6 @@
 //! Definition-of-done tests for the analysis pipeline.
 
-use crate::{
-    Analyzer,
-    Language,
-    StopWordPolicy,
-    Term,
-};
+use crate::{Analyzer, Language, StopWordPolicy, Term};
 
 fn strings(terms: Vec<Term>) -> Vec<String> {
     terms.into_iter().map(Term::into_inner).collect()

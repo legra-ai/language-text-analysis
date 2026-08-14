@@ -2,10 +2,7 @@
 
 use rust_stemmers::Algorithm;
 
-use crate::stopwords::{
-    english,
-    german,
-};
+use crate::stopwords::{english, german};
 
 /// A language the analyzer can stem and stop-word-filter for.
 ///

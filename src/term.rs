@@ -2,10 +2,7 @@
 
 use std::fmt;
 
-use serde::{
-    Deserialize,
-    Serialize,
-};
+use serde::{Deserialize, Serialize};
 
 /// A single normalized search term — the output unit of the analysis
 /// pipeline and the key under which the full-text index stores
