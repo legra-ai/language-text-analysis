@@ -1,5 +1,11 @@
 # language-text-analysis
 
+[![Crates.io](https://img.shields.io/crates/v/language-text-analysis.svg)](https://crates.io/crates/language-text-analysis)
+[![Documentation](https://docs.rs/language-text-analysis/badge.svg)](https://docs.rs/language-text-analysis)
+[![CI](https://github.com/legra-ai/language-text-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/legra-ai/language-text-analysis/actions/workflows/ci.yml)
+[![License: MIT OR Apache-2.0](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue.svg)](LICENSE-MIT)
+[![Downloads](https://img.shields.io/crates/d/language-text-analysis.svg)](https://crates.io/crates/language-text-analysis)
+
 A small, deterministic multilingual text-analysis pipeline for search indexes
 and document-processing applications.
 
@@ -51,6 +57,8 @@ The analyzer returns a `Vec<Term>` for one input string. It does not own an
 index, ranking algorithm, corpus, or application-specific query language.
 
 ## License
+
+Copyright © 2026 `DataRoad Inc`, Delaware, USA, trading as Legra.
 
 Licensed under either of
 
